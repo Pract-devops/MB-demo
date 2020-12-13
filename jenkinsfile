@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage("Maven Build"){
       steps{
-        echo"building maven Project"
+        echo "building maven Project"
       }
     }
   }
